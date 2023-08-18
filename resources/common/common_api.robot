@@ -9,8 +9,7 @@ Library     DateTime
 Library     JSONLibrary
 Library     DatabaseLibrary
 *** Variables ***
-#${current_url}      https://financialmarketapi.televisory.com/CapitalMarket
-${current_url}       https://financialmarketapi.televisory.com/CapitalMarket
+${current_url}       https://xyz.com
 
 # *** SUITE VARIABLES ***
 ${api_timeout}                 90
@@ -18,7 +17,7 @@ ${default_password}            test123
 ${default_allow_redirects}     true
 ${default_auth}                ${NONE}
 # *** DB VARIABLES ***
-${email}    test6@gloify.com
+${email}    test6@gmail.com
 
 *** Keywords ***
 
