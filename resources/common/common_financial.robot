@@ -13,13 +13,13 @@ ${login}    xpath://button[contains(text(),'Login')]
 ${headless}            false
 ${browser}             Chrome
 ${browser_timeout}     13 seconds
-${SiteUrl}   https://financialmarketdata.televisory.com/login
+${SiteUrl}   https://xyz.com/login
 
 
 
 *** Keywords ***
 Financial: login on Financial Market with provided credentials:
-    Input Text  ${email}  test3@televisory.com
+    Input Text  ${email}  test3@gmail.com
     Input Text    ${password}    test123
     Click Element    ${login}
     Sleep    10s
